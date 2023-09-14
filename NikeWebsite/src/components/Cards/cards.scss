@@ -1,0 +1,27 @@
+#cards {
+    margin-top: 100px;
+  .head {
+    .row {
+      .col-12 {
+        h2 {
+          color: #111;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+        }
+      }
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 20px;
+        .col-4{
+            width: 430px;
+        }
+    }
+  }
+}
